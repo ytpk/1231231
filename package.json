@@ -5,7 +5,7 @@
     "main": "_worker.js",
     "scripts": {
         "deploy": "wrangler deploy",
-        "build": "wrangler deploy --dry-run --outdir=public --public",
+        "build": "wrangler deploy --dry-run --outdir=public --minify --node-compat",
         "dev": "wrangler dev --remote"
     },
     "author": "",
